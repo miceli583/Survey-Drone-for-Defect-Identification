@@ -1,0 +1,3 @@
+C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images
+
+C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Image_Detection_Results
