@@ -1,5 +1,5 @@
 ##Set-ExecutionPolicy RemoteSigned (required to run bash scripts)
-#to run - .\teleDown.ps1
+#to run - .\control1.ps1
 
 $time = get-date
 $mon = $time.Month
