@@ -9,4 +9,5 @@
 #commands to execute GeoDim
 $test = unitTest.csv
 $filname = YOLOv3 Output Files\Test_Image_Detection_Results\Detection_Results.csv
-python GeoDim\GeoDim.py $filname
+python GeoDim\GeoDim.py $test
+#python GeoDim\GeoDim.py $filname
