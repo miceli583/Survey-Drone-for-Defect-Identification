@@ -12,4 +12,4 @@ $VAR1 = "."
 $VAR2 = "-"
 $fileName = "$mon$VAR1$day$VAR1$yr$VAR2$h$VAR1$m$VAR1$s"
 python TeleDown\teleDown.py $fileName
-python3 ScreenGrabber\ScreenGrabber\Screen Grabber.py $fileName
+python ScreenGrabber\ScreenGrabber\ScreenGrabber.py $fileName
