@@ -13,3 +13,4 @@ $VAR2 = "-"
 $fileName = "$mon$VAR1$day$VAR1$yr$VAR2$h$VAR1$m$VAR1$s"
 python TeleDown\teleDown.py $fileName
 python ScreenGrabber\ScreenGrabber\ScreenGrabber.py $fileName
+# python C:\Users\micel\Documents\Spring 2020\Capstone\survey_drone\TeleDown\TeleDown.py $fileName

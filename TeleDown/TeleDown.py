@@ -3,8 +3,12 @@ from dronekit import connect
 import sys
 import csv
 
+import os.path
+from os import path
+
 time = sys.argv[1]
-print time
+path = "C:/Users/micel/Documents/Spring 2020/Capstone/survey_drone/TeleDown/TD_Results"
+
 
 print('Connecting...')
 vehicle = connect('tcp:127.0.0.1:5762')
@@ -25,13 +29,17 @@ comp = vehicle.heading
 #print gim
 #print ran
 #print comp
-
-with open('%s.csv' % time, mode='w') as telem_file:
-    telem_writer = csv.writer(telem_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-    telem_writer.writerow(['Lat','Lon','Alt','Gimbal','Rangefinder','Compass'])
-    telem_writer.writerow([lat,lon,alt,gim,ran,comp])
-
+if os.path.exists(path + ".csv") ==  False:
+    with open('%s.csv' % path, mode='w') as telem_file:
+        telem_writer = csv.writer(telem_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    
+        telem_writer.writerow(['Time','Lat','Lon','Alt','Gimbal','Rangefinder','Compass'])
+        telem_writer.writerow([time,lat,lon,alt,gim,ran,comp])
+else:
+    with open('%s.csv' % path, mode='a') as telem_file:
+        telem_writer = csv.writer(telem_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    
+        telem_writer.writerow([time,lat,lon,alt,gim,ran,comp])
 
 vehicle.close()
 print("Completed")
