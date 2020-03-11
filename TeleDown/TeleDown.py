@@ -25,18 +25,18 @@ comp = vehicle.heading
 
 #print lat
 #print lon
-#print alt
+#print s
 #print gim
 #print ran
 #print comp
 if os.path.exists(path + ".csv") ==  False:
-    with open('%s.csv' % path, mode='w') as telem_file:
+    with open('%s.csv' % path, mode='wb') as telem_file:
         telem_writer = csv.writer(telem_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     
         telem_writer.writerow(['Time','Lat','Lon','Alt','Gimbal','Rangefinder','Compass'])
         telem_writer.writerow([time,lat,lon,alt,gim,ran,comp])
 else:
-    with open('%s.csv' % path, mode='a') as telem_file:
+    with open('%s.csv' % path, mode='ab') as telem_file:
         telem_writer = csv.writer(telem_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     
         telem_writer.writerow([time,lat,lon,alt,gim,ran,comp])
