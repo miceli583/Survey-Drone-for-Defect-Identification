@@ -1,3 +1,5 @@
+# -------ScreenGraberTest-------
+
 # python ScreenGrabber\ScreenGrabber\ScreenCaptureTest.py
 
 import numpy as np

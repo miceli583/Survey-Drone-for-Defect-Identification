@@ -1,3 +1,5 @@
+# -------TeleDown-------
+
 from dronekit import connect
 
 import sys
@@ -11,7 +13,8 @@ path = "C:/Users/micel/Documents/Spring 2020/Capstone/survey_drone/TeleDown/TD_R
 
 
 print('Connecting...')
-vehicle = connect('tcp:127.0.0.1:5762')
+#vehicle = connect('tcp:127.0.0.1:5762')
+vehicle = connect('com8', baud=57600)
 
 vehicle.wait_ready('autopilot_version')
 print('Autopilot version: %s'%vehicle.version)
