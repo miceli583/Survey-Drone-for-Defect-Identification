@@ -1,0 +1,10 @@
+image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
+4.12.2020-4.33.1.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 1 Nitrogen Tank.jpg,3,579,203,903,5,0.754283249,1204,903
+4.12.2020-4.33.1.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 1 Nitrogen Tank.jpg,473,82,762,753,5,0.888087749,1204,903
+4.12.2020-4.33.3,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 3 Airgas Liquid Nitrogen Tank.jpg,450,110,657,523,5,0.472274542,1124,843
+4.12.2020-4.33.5.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 4 Misc Rusty Patio.jpg,431,443,544,843,1,0.393887967,1124,843
+4.12.2020-4.33.8.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 6 Airplane.jpg,336,213,955,393,0,0.274847448,1124,843
+4.12.2020-4.33.10.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 7 Rusty Loading Dock.jpg,361,37,728,492,5,0.606398046,1124,843
+4.12.2020-4.33.11.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 8 AIr Liquide Tank.jpg,184,254,933,574,5,0.71623069,1124,843
+4.12.2020-4.33.12.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 8.2 alternate angle.jpg,212,333,911,626,5,0.531849623,1124,843
+4.12.2020-4.33.13.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 9 Multiple Tanks.jpg,227,88,399,551,5,0.478463382,1124,843

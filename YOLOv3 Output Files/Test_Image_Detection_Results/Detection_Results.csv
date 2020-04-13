@@ -1,13 +1,10 @@
 image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
-Image 1 Nitrogen Tank.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 1 Nitrogen Tank.jpg,3,579,203,903,5,0.7542832493782043,1204,903
-Image 1 Nitrogen Tank.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 1 Nitrogen Tank.jpg,473,82,762,753,5,0.8880877494812012,1204,903
-Image 3 Airgas Liquid Nitrogen Tank.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 3 Airgas Liquid Nitrogen Tank.jpg,450,110,657,523,5,0.4722745418548584,1124,843
-Image 4 Misc Rusty Patio.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 4 Misc Rusty Patio.jpg,431,443,544,843,1,0.3938879668712616,1124,843
-Image 6 Airplane.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 6 Airplane.jpg,336,213,955,393,0,0.27484744787216187,1124,843
-Image 7 Rusty Loading Dock Cropped.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 7 Rusty Loading Dock Cropped.jpg,25,26,400,203,5,0.4169454276561737,427,252
-Image 7 Rusty Loading Dock Cropped.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 7 Rusty Loading Dock Cropped.jpg,39,16,387,190,2,0.34328576922416687,427,252
-Image 7 Rusty Loading Dock Cropped.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 7 Rusty Loading Dock Cropped.jpg,200,183,235,252,1,0.25118860602378845,427,252
-Image 7 Rusty Loading Dock.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 7 Rusty Loading Dock.jpg,361,37,728,492,5,0.6063980460166931,1124,843
-Image 8 AIr Liquide Tank.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 8 AIr Liquide Tank.jpg,184,254,933,574,5,0.7162306904792786,1124,843
-Image 8.2 alternate angle.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 8.2 alternate angle.jpg,212,333,911,626,5,0.5318496227264404,1124,843
-Image 9 Multiple Tanks.jpg,C:\Users\caile\Documents\GitHub\TrainYourOwnYOLO\Data\Source_Images\Test_Images\Image 9 Multiple Tanks.jpg,227,88,399,551,5,0.47846338152885437,1124,843
+4.12.2020-4.33.1.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.1.jpg,3,579,203,903,5,0.7542832493782043,1204,903
+4.12.2020-4.33.1.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.1.jpg,473,82,762,753,5,0.8880877494812012,1204,903
+4.12.2020-4.33.3.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.3.jpg,450,110,657,523,5,0.4722745418548584,1124,843
+4.12.2020-4.33.5.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.5.jpg,431,443,544,843,1,0.3938879668712616,1124,843
+4.12.2020-4.33.8.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.8.jpg,336,213,955,393,0,0.27484744787216187,1124,843
+4.12.2020-4.33.10.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.8.jpg,361,37,728,492,5,0.606398046,1124,843
+4.12.2020-4.33.11.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.11.jpg,184,254,933,574,5,0.7162306904792786,1124,843
+4.12.2020-4.33.12.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.12.jpg,212,333,911,626,5,0.5318496227264404,1124,843
+4.12.2020-4.33.13.jpg,YOLOv3 Output Files\Test_Image_Detection_Results\4.12.2020-4.33.13.jpg,227,88,399,551,5,0.47846338152885437,1124,843
