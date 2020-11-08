@@ -24,8 +24,11 @@ Python Supplemental Packages:
     pip install pymavlink
     pip install numpy
 
+
 STMicroelectonrics download to recognize COM ports
+
 DFU bootloader required
+
 download ardupilot hex to bootload onto FC:
     https://firmware.ardupilot.org/Copter/latest/
         select based on specific flight controller
@@ -34,5 +37,7 @@ download ardupilot hex to bootload onto FC:
 
 
 .\control1.ps1 - runs TeleDown and Screenshotter - Designed for live use
+
 .\control2.ps1 - runs YOLOv3 and GeoDim - Designed for post flight analysis
+
 .\contorl3.ps1 - runs KeyControl - Designed for live use
